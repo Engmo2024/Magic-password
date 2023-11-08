@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: var(--pmc-ba);
+
+}
+
+:root{
+    --pmc-ba:#1f242d;
+    --pmc-co:#ffffff;
+    --pmc-sp:#0ef;
+    --pmc-ho:#101010;
+}
+
+.nav{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    color: var(--pmc-co);
+}
+
+
+
+span{
+
+    color: var(--pmc-sp);
+}
+h1{
+    cursor: pointer;
+}
+
+p{
+    margin-top: 4px;
+    font-size: 20px;
+}
+
+.bt{
+    position: absolute;
+    top: 100px;
+}
+
+#password{
+    width: 300%;
+    height: 30px;
+    background-color: var(--pmc-co);
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+
+#password::placeholder{
+     color: var(--pmc-ho);
+}
+
+button{
+    position: absolute;
+    top: 60px;
+    font-size: 20px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    background-color: var(--pmc-co);
+    color: var(--pmc-ho);
+} 
+
+button:hover{
+    background-color: var(--pmc-sp);
+    transition: 0.5s ease;
+    transform: scale(1.1);
+}
+
+
+
+
